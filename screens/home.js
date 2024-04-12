@@ -4,12 +4,20 @@ import { NavigationContainer } from "@react-navigation/native";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import Conteudo from "./conteudo";
 import Sobre from "./sobre";
+import eu from './eu';
 import Image from '../assets/NOITE.png'
 
 export default function Home({ navigation }) {
   return (
     <ImageBackground source={Image} resizeMode="cover" style={styles.image}>
     <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center', backgroundColor: '#FFFFF' }}>
+
+    <Text> </Text>
+    <Text> </Text>
+    <Text> </Text>
+    <Text> </Text>
+
+
       <Text style={styles.title}>ARTE MODERNA</Text>
       <Text style={styles.title}>"A NOITE ESTRELADA"</Text>
       <Pressable
@@ -24,6 +32,14 @@ export default function Home({ navigation }) {
       >
         
         <Text style={{ color: 'white' }}>Vincent van Gogh</Text>
+      </Pressable>
+
+      <Pressable
+        style={{ padding: 10, backgroundColor: '#000000', borderRadius: 5, marginTop: 10, width: '50%', alignItems: 'center' }}
+        onPress={() => navigation.navigate("Eu")}
+      >
+        
+        <Text style={{ color: 'white' }}>Produção</Text>
       </Pressable>
     </View>
     </ImageBackground>

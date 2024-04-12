@@ -8,12 +8,17 @@ export default function Conteudo({ navigation }) {
       <Text style={styles.title}>Vincent van Gogh</Text>
       <Image source={require('../assets/vicente.png')} style={styles.image}/>
       <Text style={styles.text}>
-      A Revolução Russa de 1917 foi um evento decisivo que levou à derrubada do regime czarista na Rússia e à ascensão dos bolcheviques ao poder. Inicialmente, a Revolução de Fevereiro resultou na abdicação do czar Nicolau II e na instauração de um governo provisório, mas sua incapacidade de satisfazer as demandas populares levou à Revolução de Outubro, liderada por Vladimir Lênin e os bolcheviques. Isso estabeleceu o primeiro governo socialista do mundo. No entanto, a revolução foi seguida por uma guerra civil brutal entre os bolcheviques e os opositores, resultando em grande destruição e perda de vidas. A Revolução Russa teve um impacto duradouro, moldando a política mundial e inspirando movimentos revolucionários em todo o mundo.
-      Após a Revolução de Outubro, os bolcheviques enfrentaram enormes desafios para consolidar seu poder e implementar suas políticas revolucionárias. Uma das primeiras medidas foi a assinatura do Tratado de Brest-Litovsk em março de 1918, que encerrou a participação da Rússia na Primeira Guerra Mundial, mas resultou na perda de grandes porções de território para as Potências Centrais.
+      Vincent Willem van Gogh nasceu em Groot-Zundert, nos Países Baixos, em 30 de março de 1853. Ele foi o primogênito de Theodorus van Gogh, um ministro religioso, e Anna Cornelia Carbentus. Criado em uma família de classe média, Van Gogh teve uma infância relativamente estável.
 
-Internamente, os bolcheviques enfrentaram resistência tanto dos brancos, que representavam uma coalizão de opositores, quanto de outros grupos, como os anarquistas e os nacionalistas não russos. A guerra civil resultante foi marcada por brutalidade e atrocidades de ambos os lados, causando grande sofrimento para a população civil.
+Embora tenha trabalhado em várias profissões, incluindo comerciante de arte e professor, Van Gogh só começou a pintar aos 27 anos. Rapidamente, ele se dedicou inteiramente à arte, sua verdadeira paixão.
 
-Para lidar com a oposição interna, os bolcheviques estabeleceram uma série de medidas draconianas, incluindo a criação da Cheka, a polícia política secreta, e a instituição do terror vermelho para suprimir qualquer resistência. Isso resultou em uma repressão generalizada contra dissidentes políticos, intelectuais, religiosos e outros oponentes do regime.
+Em 1886, Van Gogh se mudou para Paris, onde conheceu e foi influenciado pelos impressionistas e pós-impressionistas, como Paul Gauguin, Claude Monet e Henri de Toulouse-Lautrec.
+
+Sua saúde mental sempre foi frágil, e ele lutou contra a depressão e a ansiedade ao longo de sua vida. Em 1888, Van Gogh se estabeleceu em Arles, no sul da França, onde pintou algumas de suas obras mais famosas, como "Noite Estrelada" e "Quarto em Arles".
+
+Após um conflito com Gauguin, Van Gogh cortou parte de sua orelha e foi internado em um hospital psiquiátrico. Durante esse período, ele continuou pintando, produzindo algumas de suas obras mais icônicas.
+
+Van Gogh faleceu em 29 de julho de 1890, aos 37 anos, em Auvers-sur-Oise, França, devido a complicações de um ferimento de bala autoinfligido. Apesar de sua vida curta e tumultuada, ele deixou um legado duradouro na história da arte, com seu estilo expressivo e emocionalmente intenso.
       </Text>
 
       <Text style={styles.text}>  </Text>

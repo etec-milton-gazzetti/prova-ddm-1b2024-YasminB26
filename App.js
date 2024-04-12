@@ -8,6 +8,7 @@ import { Roboto_400Regular, Roboto_700Bold } from '@expo-google-fonts/roboto';
 import Home from './screens/home.js';
 import Conteudo from './screens/conteudo.js';
 import Sobre from './screens/sobre.js';
+import eu from './screens/eu.js';
 const Stack = createNativeStackNavigator();
 
 export default function App() {
@@ -26,6 +27,7 @@ export default function App() {
       <Stack.Screen name="Home" component={Home} options={{ headerShown: false}}/>
       <Stack.Screen name="Conteudo" component={Conteudo}  options={{ headerShown: false}} />
       <Stack.Screen name="Sobre" component={Sobre} options={{ headerShown: false}}/>
+      <Stack.Screen name="Eu" component={eu} options={{ headerShown: false}}/>
     </Stack.Navigator>
   </NavigationContainer>
       
